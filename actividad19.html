@@ -4,7 +4,40 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Actividad 19. Creación de Menú Horizontal</title>
+    <style>
+      .container {
+        padding: 25px 25px;
+      }
+      ul.horizontal{
+        margin:0;
+        padding:0;
+      }
+      ul.horizontal li{
+        display:block;
+        float: left;
+        padding: 0 auto;
+      }
+			.navegation li a {
+				background-color:#b22222;
+				color:#fff;
+        border: solid 2px;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}      
+    </style>
   </head>
   <body>
+    <div class="container">
+      <nav class="navegation">
+        <ul class="horizontal">
+          <li><a href="https://detulipanes.net/tulipanes-blancos/" target="_blank">Tulipanes Blancos</a></li>
+          <li><a href="https://detulipanes.net/tulipanes-rosas/" target="_blank">Tulipanes Rosas</a></li>
+          <li><a href="https://detulipanes.net/tulipanes-rojos/" target="_blank">Tulipanes Rojos</a></li>
+          <li><a href="https://detulipanes.net/tulipanes-naranjas/" target="_blank">Tulipanes Naranjas</a></li>
+          <li><a href="https://detulipanes.net/tulipanes-morados/" target="_blank">Tulipanes Morados</a></li>
+        </ul>
+      </nav>
+    </div>
   </body>
 </html>

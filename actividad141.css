@@ -1,0 +1,16 @@
+#cabecera {
+  text-align: centro;
+  font-family: Candara;
+  color: white;
+  background-color: #FFA836;
+}
+#cuerpo {
+  font-family: Verdana;
+  color: #191919;
+  background-color: white; 
+}
+#pie {
+  font-family: Candara;
+  color: white;
+  background-color: #FFA836;
+}

@@ -1,0 +1,11 @@
+.subrayado {
+  color: #ff5aa4;
+  text-decoration:underline;
+}
+.tachado {
+  color: #ff5aa4;
+  text-decoration:line-through;
+}
+p {
+  font-family: Times;
+}
